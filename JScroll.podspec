@@ -9,13 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "JScroll"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JScroll."
+  s.version          = "1.0.0"
+  s.summary          = "Test cocoapod JScroll"
   s.description      = <<-DESC
-                       An optional longer description of JScroll
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Test cocoapod JScroll! Have Fun!
                        DESC
   s.homepage         = "https://github.com/jacobjiangwei/JScroll"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
