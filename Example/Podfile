@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JScroll', :exclusive => true do
+  pod "JScroll", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JScroll", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
