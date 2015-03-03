@@ -15,11 +15,9 @@ Pod::Spec.new do |s|
                        Test cocoapod JScroll! Have Fun!
                        DESC
   s.homepage         = "https://github.com/jacobjiangwei/JScroll"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "jacob.jiang" => "jacob.jiang@ringcentral.com" }
   s.source           = { :git => "https://github.com/jacobjiangwei/JScroll.git", :tag => '1.0.0' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -29,7 +27,5 @@ Pod::Spec.new do |s|
     'JScroll' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

@@ -1,5 +1,0 @@
-#include "Pods-Tests-JScroll.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/JScroll" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase" "${PODS_ROOT}/Headers/Public/JScroll"
-OTHER_LDFLAGS = -ObjC
-PODS_ROOT = ${SRCROOT}
